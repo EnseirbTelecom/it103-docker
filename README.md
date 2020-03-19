@@ -4,6 +4,10 @@
 
 Pour démarrer le conteneur contenant PHP, MySQL et PhpMyAdmin il faut tout d'abord installer Docker sur votre machine. Ensuite créez un répertoire it103 ou vous voulez sur votre machine (pour le reste de l'exemple on imaginera que le dossier est situé ici : `/path/to/it103`).
 
+Tous d'abord il faut démarrer Docker et installer le conteneur:
+
+`docker pull jrfaller/it103`
+
 Ensuite vous pouvez démarrer le conteneur de la manière suivante:
 
 `docker run -p 80:80 -v /path/to/it103/:/var/www/html/it103 it103`
