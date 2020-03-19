@@ -16,7 +16,7 @@ L'infrastructure est maintenant fonctionnelle. **Attention, le contenu de la bas
 
 ## Utilisation
 
-Les fichiers PHP sont à placer dans le dossier it103. Vous pouvez ensuite accéder aux différents outils suivants:
+Les fichiers PHP sont à placer dans le dossier `/path/to/it103`. Vous pouvez directement les éditer avec n'importe quel éditeur texte. Vous pouvez en outre accéder aux différents outils suivants:
 
 - <http://localhost/info>: informations sur la config PHP
 - <http://localhost/phpmyadmin>: PhpMyAdmin
