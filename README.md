@@ -12,6 +12,8 @@ Ensuite vous pouvez démarrer le conteneur de la manière suivante:
 
 `docker run -p 80:80 -v /path/to/it103/:/var/www/html/it103 it103`
 
+L'infrastructure est maintenant fonctionnelle. **Attention, le contenu de la base de données est effacé à chaque redémarrage du conteneur. Si vous voulez conserver son contenu il faut l'exporter en utilisant phpMyAdmin.**
+
 ## Utilisation
 
 Les fichiers PHP sont à placer dans le dossier it103. Vous pouvez ensuite accéder aux différents outils suivants:
