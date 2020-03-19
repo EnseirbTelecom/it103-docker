@@ -1,4 +1,4 @@
-# Docker Infrastructure pour le module IT103
+# Infrastructure Docker pour le module IT103
 
 ## Installation et démarrage
 
@@ -10,9 +10,9 @@ Pour démarrer le conteneur contenant PHP, MySQL et PhpMyAdmin il faut tout d'ab
 
 Les fichiers PHP sont à placer dans le dossier it103. Vous pouvez ensuite accéder aux différents outils suivants:
 
-- [http://localhost/info]: informations sur la config PHP
-- [http://localhost/phpmyadmin]: PhpMyAdmin
-- [http://localhost/it103]: votre site
+- <http://localhost/info>: informations sur la config PHP
+- <http://localhost/phpmyadmin>: PhpMyAdmin
+- <http://localhost/it103>: votre site
 
 ## Remerciements
 
