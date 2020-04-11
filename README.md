@@ -18,9 +18,9 @@ L'infrastructure est maintenant fonctionnelle. **Attention, le contenu de la bas
 
 Les fichiers PHP sont à placer dans le dossier `/path/to/it103`. Vous pouvez directement les éditer avec n'importe quel éditeur texte. Vous pouvez en outre accéder aux différents outils suivants:
 
-- <http://localhost/info>: informations sur la config PHP
-- <http://localhost/phpmyadmin>: PhpMyAdmin
-- <http://localhost/it103>: votre site
+- <http://localhost/phpmyadmin>: PhpMyAdmin. Petite précision, l'utilisateur créé par défaut pour MySQL est `admin` avec mot de passe `it103`.
+- <http://localhost/it103>: votre site.
+- <http://localhost/info>: informations sur la config PHP.
 
 ## Remerciements
 
