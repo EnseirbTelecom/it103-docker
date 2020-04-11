@@ -25,6 +25,7 @@ RUN wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-all-lang
   mv /var/www/html/phpMyAdmin-5.0.1-all-languages /var/www/html/phpmyadmin
 RUN mkdir /var/www/html/info
 ADD phpinfo.php /var/www/html/info/index.php
+ADD php.ini /etc/php/7.2/apache2/php.ini
 
 EXPOSE 80 3306
 
