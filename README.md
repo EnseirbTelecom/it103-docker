@@ -8,9 +8,9 @@ Tous d'abord il faut démarrer Docker et installer le conteneur (cette commande 
 
 `docker pull jrfaller/it103`
 
-Ensuite vous pouvez démarrer le conteneur de la manière suivante (à chaque fois que vous voulez démarrer le conteneur): 
+Ensuite vous pouvez démarrer le conteneur de la manière suivante (à chaque fois que vous voulez démarrer le conteneur): `docker run -p 80:80 -v /path/to/it103/:/var/www/html/it103 jrfaller/it103`.
 
-`docker run -p 80:80 -v /path/to/it103/:/var/www/html/it103 jrfaller/it103`
+Sous Linux et Mac OS, vous pouvez lancer facilement docker en le bindant sur votre répertoire courant de la manière suivante : `docker run -p 80:80 -v $PWD:/var/www/html/it103 jrfaller/it103`.
 
 L'infrastructure est maintenant fonctionnelle. **Attention, le contenu de la base de données est effacée à chaque redémarrage du conteneur. Si vous voulez conserver son contenu il faut l'exporter en utilisant phpMyAdmin.**
 
