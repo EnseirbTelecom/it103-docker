@@ -14,7 +14,7 @@ Le conteneur se démarre de la manière suivante: `docker run -p 80:80 -v /path/
 
 Sous Linux et Mac OS, vous pouvez lancer facilement docker en le bindant sur votre répertoire courant de la manière suivante : `docker run -p 80:80 -v $PWD:/var/www/html/it103 jrfaller/it103`.
 
-Si vous avez des problèmes pour ouvrir le port 80 sur votre ordinateur, vous pouvez utiliser un autre port, comme le `8080` de la manière suivante: `docker run -p 8080:80 -v /path/to/it103/:/var/www/html/it103 jrfaller/it103` (dans ce cas là l'URL sera `http://localhost:8080`).
+Si vous avez des problèmes pour ouvrir le port 80 sur votre ordinateur (message `Error starting userland proxy: listen tcp 0.0.0.0:80: bind: address already in use.`), vous pouvez utiliser un autre port, comme le `8080` de la manière suivante: `docker run -p 8080:80 -v /path/to/it103/:/var/www/html/it103 jrfaller/it103` (dans ce cas là l'URL sera `http://localhost:8080`).
 
 L'infrastructure est maintenant fonctionnelle. **Attention, le contenu de la base de données est effacée à chaque redémarrage du conteneur. Si vous voulez conserver son contenu il faut l'exporter en utilisant phpMyAdmin.**
 
